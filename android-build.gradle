@@ -1,0 +1,10 @@
+repositories {
+//    jcenter()
+    maven { url 'https://maven.aliyun.com/repository/jcenter'
+     allowInsecureProtocol true}
+    maven { url 'http://maven.aliyun.com/nexus/content/groups/public'
+     allowInsecureProtocol true}}
+
+dependencies {
+    implementation 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'
+}
